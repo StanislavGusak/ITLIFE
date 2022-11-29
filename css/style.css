@@ -1,0 +1,126 @@
+body {
+    font-family: 'Lato';
+    background: #FFFFFF;
+    color: #3C3C3C;
+    margin: 0 auto;
+    width: 1440px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    margin-left: 135px;
+}
+
+.logo__img {
+    display: inline-block;
+    width: 62px;
+    height: 60px;
+}
+
+.logo__title {
+    display: inline-block;
+}
+
+.logo__title--link {
+    font-family: 'Train One';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #282528;
+}
+
+/* .header__menu {
+} */
+
+.nav {
+    display: flex;
+    max-width: 417px;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.nav__item--link {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+}
+
+.nav__item--link:hover {
+    color: #18B5DC;
+    transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 136px;
+    width: 130px;
+    height: 42px;
+    border: 1px solid #3C3C3C;
+    background-color: transparent;
+    color: #3C3C3C;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #18B5DC;
+    color: #FFFFFF;
+    border: 1px solid #18B5DC;
+    transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+}
+
+/* main */
+
+.wrapper {
+    margin: 150px 135px;
+}
+
+.main__content {
+    margin: 150px auto 60px;
+    width: 570px;
+    text-align: center;
+}
+
+.main__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+}
