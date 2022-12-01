@@ -11,6 +11,8 @@ a {
     text-decoration: none;
 }
 
+/* header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -44,9 +46,6 @@ a {
     text-transform: uppercase;
     color: #282528;
 }
-
-/* .header__menu {
-} */
 
 .nav {
     display: flex;
@@ -120,7 +119,110 @@ a {
     font-weight: 700;
     font-size: 34px;
     line-height: 41px;
-    text-align: center;
     letter-spacing: 0.13em;
     text-transform: uppercase;
 }
+
+.divider {
+    width: 45px;
+    height: 4px;
+    background: #DDDBDB;
+    margin: 20px auto 40px;
+}
+
+.main__subtitle {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1170px;
+    height: 333px;
+}
+
+.item__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282528;
+    margin-top: 19px;
+}
+
+.item__job {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+}
+
+.section__item {
+    max-width: 270px;
+    height: 333px;
+}
+
+.section__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section__item--photo {
+    cursor: pointer;
+    max-width: 270px;
+}
+
+.section__item--photo:hover {
+    display: none;
+}
+
+.section__item--photo:hover + .item__hover {
+    display: flex;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+
+.item__hover {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 270px;
+    background: #18B5DC;
+}
+
+.section__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 134px;
+}
+
+.social__img {
+    display: block;
+    width: 42px;
+    height: 42px;
+}
+
+.social__img--hover {
+    display: none;
+}
+
+.social__img:hover {
+    display: none;
+}
+
+.social__img:hover + .social__img--hover {
+   display: block;
+   transition: all .3s ease-in;
+   -webkit-transition: all .3s ease-in;
+   -moz-transition: all .3s ease-in;
+   -ms-transition: all .3s ease-in;
+   -o-transition: all .3s ease-in;
+}
+
