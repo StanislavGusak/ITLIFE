@@ -172,7 +172,7 @@ a {
 
 .section__item {
     position: relative;
-    width: 270px;
+    max-width: 270px;
     height: 333px;
 }
 
